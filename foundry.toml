@@ -1,0 +1,13 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["../../tests/lib", 'lib']
+
+solc_version = "0.8.20"
+
+optimizer = true
+optimizer_runs = 28
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+--no-match-path = "./test/lib-helpers/NumConcatenationWrapped.sol"
